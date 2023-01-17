@@ -23,29 +23,3 @@ seeMoreButton.addEventListener("click", () => {
 });
 
 
-const servicesOptions = document.querySelectorAll(".block-2-content-item");
-
-servicesOptions.forEach((element) => {
-
-    element.addEventListener("mouseout", () => {
-
-        element.nextElementSibling.style.display = null;
-
-    });
-
-    element.addEventListener("mouseover", () => {
-
-        let rect = element.getBoundingClientRect();
-        console.log(rect.top, rect.right, rect.bottom, rect.left);
-
-        if(element.nextElementSibling.className == "block-2-content-item-additional-left"){
-            element.nextElementSibling.style.display = "flex";
-            element.nextElementSibling.style.left = rect.left + 340 + "px";
-        } else {
-            element.nextElementSibling.style.display = "flex";
-            element.nextElementSibling.style.left = rect.left - 680 + "px";
-        }
-
-    });
-
-})
