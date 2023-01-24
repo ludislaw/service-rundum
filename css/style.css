@@ -54,8 +54,9 @@ header a:active {
 .navbar-menu {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 10vh;
+    padding: 10px 0px;
     position: fixed;
     top: 0;
     left: 0;
@@ -71,11 +72,9 @@ header a:active {
 .logo {
     height: 60px;
     width: 210px;
-    margin: 8% 0%;
 }
 
 .nav-contacts {
-    margin: auto 0;
     width: 190px;
 }
 
@@ -89,17 +88,16 @@ h1 {
     font-size: 64px;
 }
 
-.main {
-    margin-top: 10vh;
+#home .content-container {
+    padding: 100px 0px;
 }
 
 .block-container {
-    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 0px;
+    padding: 140px 0px;
 }
 
 .block-container:nth-child(odd) {
@@ -128,7 +126,7 @@ h1 {
 .block-container:nth-child(1) {
     color: #e3e6f5;
     background-image: url("../images/dark-background.png");
-    background-size: 1920px;
+    background-size: cover;
 }
 
 .block1-content {
@@ -355,11 +353,10 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
-    height: 630px;
 }
 
 .info-block {
-    padding: 0 100px;
+    padding-right: 90px;
 }
 
 .info-block-top {
@@ -407,14 +404,10 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 490px;
+    height: 420px;
     padding: 30px;
     border-radius: 3px;
     background-color: #f2f3f8;
-}
-
-.form {
-    margin-bottom: 40px;
 }
 
 .form-name {
@@ -447,7 +440,7 @@ h1 {
 
 .contact-form textarea {
     background-color: #f2f3f8;
-    height: 160px;
+    height: 120px;
     resize: none;
     border-color: #0f70b7;
 }
@@ -473,6 +466,7 @@ h1 {
     font-size: 24px;
     margin-left: -30px;
     color: #f2f3f8;
+    margin-top: 10px;
 }
 
 .send-info-button:hover {
