@@ -156,6 +156,112 @@
 
 @media only screen and (max-width: 900px) {
 
-    
+    header a {
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    .logo {
+        height: 40px;
+        width: 135px;
+    }
+    .nav-contacts {
+        font-size: 12px;
+    }
+    .block-container {
+        padding: 130px 0px;
+    }
+    .block1-buttons-container {
+        width: 460px;
+    }
+    .block1-text {
+        width: 70%;
+    }
+
+
+    .block-2-content-item {
+        width: 110px;
+    }
+    .item-img img {
+        width: 70px;
+        height: 70px;
+    }
+    .item-title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .item-text {
+        font-size: 12px;
+        display: none;
+    }
+    .additional-info-container {
+        width: 75%;
+    }   
+
+    /* GALLERY */
+    .gallery img {
+        width: 290px;
+        height: 180px;
+    }
+
+    /* CONTACT FORM */
+    .info-block-top {
+        width: 200px;
+        padding: 20px 20px 20px 30px;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .info-block {
+        padding: 0px 30px;
+    }
+
+    .form {
+        margin-bottom: -10px;
+    }
+    .contact-form {
+        width: 300px;
+        height: 380px;
+        padding: 20px;
+    }
+    .contact-form textarea {
+        height: 100px;
+    }
+    .send-info-button {
+        width: 340px;
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .info-item-icon img {
+        width: 30px;
+        height: 30px;
+    }
+    .form-field label {
+        font-size: 16px;
+    }
+    .form-name input {
+        width: 130px;
+    }
+    .info-item-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .info-item-text {
+        font-size: 14px;
+    }
+    .info-item-icon {
+        margin-right: 15px;
+    }
+
+    /* FOOTER */
+    .footer-top {
+        padding: 30px 40px;
+    }
+    .map-frame {
+        width: 185px;
+        height: 150px;
+    }
+
 
 }
