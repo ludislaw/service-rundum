@@ -74,10 +74,6 @@ header a:active {
     width: 210px;
 }
 
-.nav-contacts {
-    width: 190px;
-}
-
 .nav-mail {
     white-space: nowrap;
 }
@@ -288,7 +284,9 @@ h1 {
 }
 
 .additional-info-text {
-    width: 260px;
+    width: 270px;
+    font-size: 15px;
+    padding-right: 12px;
 }
 
 .additional-info-images {
@@ -364,7 +362,7 @@ h1 {
     padding: 30px 20px;
     border-radius: 3px;
     font-size: 22px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     background-color: #e8f0fe;
 }
 
@@ -477,7 +475,6 @@ h1 {
 /* FOOTER */
 .footer {
     background-color: #f2f3f8;
-    height: 53vh;
 }
 
 .footer-top {

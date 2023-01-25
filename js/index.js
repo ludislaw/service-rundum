@@ -1,7 +1,6 @@
 const hiddenGalleryImages = document.querySelectorAll(".hidden");
 const seeMoreButton = document.querySelector(".gallery-seemore");
 const galleryForHeight = document.querySelector(".gallery");
-console.log(galleryForHeight.clientHeight);
 
 let posTop = 0;
 
