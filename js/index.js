@@ -6,7 +6,6 @@ let posTop = 0;
 
 seeMoreButton.addEventListener("click", () => {
     hiddenGalleryImages.forEach((element) => {
-        console.log(element.scrollHeight);
         if (element.style.maxHeight){
             element.style.maxHeight = null;
             seeMoreButton.style.transform = "rotate(-45deg)";
