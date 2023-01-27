@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1400px) {
+    .nav-hrefs {
+        background: #f2f3f8;
+    }
     header a {
         margin-right: 55px
     }
@@ -39,6 +42,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+    .nav-hrefs {
+        background: #f2f3f8;
+    }
     .block-container {
         padding: 120px 0px;
     }
@@ -155,6 +161,9 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .nav-hrefs {
+        background: #f2f3f8;
+    }
 
     header a {
         margin-right: 20px;
@@ -268,6 +277,7 @@
 
 @media only screen and (max-width: 768px) {
 
+    
     .logo {
         height: 50px;
         margin-left: 20px;
@@ -324,7 +334,7 @@
     }
     .nav-contacts {
         font-size: 18px;
-        padding: 280px 20px;
+        padding: 20px 20px;
     }
 
     .half-row-container {
@@ -430,7 +440,7 @@
     }
     .nav-contacts {
         font-size: 13px;
-        padding: 240px 20px;
+        padding: 20px 20px;
     }
     .block1-text {
         font-size: 14px;
