@@ -202,8 +202,9 @@ h1 {
 
 .block-container:nth-child(1) {
     color: #e3e6f5;
-    background-image: url("../images/dark-background.png");
+    background-image: url("../images/dark-background(s).jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .block1-content {
@@ -683,6 +684,13 @@ h1 {
 .footer-company-name {
     margin-top: auto;
     margin-bottom: auto; 
+}
+
+.dev-copyright {
+    display: flex;
+    align-items: end;
+    font-size: 12px;
+    padding-bottom: 1%;
 }
 
 
