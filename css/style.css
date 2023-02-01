@@ -74,7 +74,9 @@ header a:active {
     height: 60px;
     width: 210px;
 }
-
+.nav-hrefs .nav-phone {
+    padding: 0;
+}
 .nav-mail {
     white-space: nowrap;
 }
@@ -182,6 +184,18 @@ h1 {
 
 .block-title h2 {
     font-size: 46px;
+}
+
+.phone-number, .email {
+    color: #000;
+    text-decoration: none;
+}
+
+.phone-number:hover, .email:hover {
+    color: #cc1e27;
+    transition: 0.3s;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 /* BLOCK-1 */
