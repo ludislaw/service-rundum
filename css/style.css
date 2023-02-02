@@ -688,9 +688,8 @@ h1 {
 
 .dev-copyright {
     display: flex;
-    align-items: end;
+    align-items: center;
     font-size: 12px;
-    padding-bottom: 1%;
 }
 
 

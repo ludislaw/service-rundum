@@ -282,6 +282,8 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+
     .block-container {
         padding: 95px 0px;
     }
@@ -426,6 +428,11 @@
     }
     .footer-top-right {
         width: 100%;
+    }
+    .footer-bot-container {
+        flex-direction: column;
+        align-items: center;
+        height: 110px;
     }
 
 }
