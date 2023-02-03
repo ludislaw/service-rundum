@@ -36,9 +36,6 @@
         width: 350px;
         height: 210px;
     }
-    .footer-bot-container {
-        padding: 0px 20px;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -162,7 +159,7 @@
         height: 180px;
     }
     .footer-bot-container {
-        padding: 0px 20px;
+        padding: 15px 20px 0px 20px;
     }
 }
 
@@ -432,7 +429,14 @@
     .footer-bot-container {
         flex-direction: column;
         align-items: center;
-        height: 110px;
+    }
+    .social-media {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .dev-copyright {
+        top: 0px;
+        padding-bottom: 10px;
     }
 
 }
