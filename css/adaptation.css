@@ -280,7 +280,6 @@
 
 @media only screen and (max-width: 768px) {
 
-
     .block-container {
         padding: 95px 0px;
     }
@@ -438,11 +437,14 @@
         top: 0px;
         padding-bottom: 10px;
     }
+    .nav-contacts a{
+        padding: 0px;
+        font-size: 20px;
+    }
 
 }
 
 @media only screen and (max-width: 450px) {
-
     .block-container {
         padding: 80px 0px;
     }
@@ -534,6 +536,10 @@
         width: 180px;
         height: 110px;
         margin-bottom: 10px;
+    }
+    .nav-contacts a{
+        padding: 0px;
+        font-size: 14px;
     }
 
 }

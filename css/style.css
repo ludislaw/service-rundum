@@ -30,7 +30,7 @@ header {
 }
 
 header a {
-    margin-right: 120px;
+    margin-right: 90px;
     font-family: "Roboto Bold", sans-serif;
     color: #424445;
 }
@@ -189,6 +189,7 @@ h1 {
 .phone-number, .email {
     color: #000;
     text-decoration: none;
+    margin-right: 0px;
 }
 
 .phone-number:hover, .email:hover {
